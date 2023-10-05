@@ -7,23 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D0118A142ABC48AA00A668EA /* ChangePlaneCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0118A132ABC48AA00A668EA /* ChangePlaneCollectionViewCell.swift */; };
+		D0118A172ABC81DF00A668EA /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0118A162ABC81DF00A668EA /* UIView+Extension.swift */; };
+		D0118A192ABC833300A668EA /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0118A182ABC833300A668EA /* UITextField+Extension.swift */; };
+		D0118A1E2ABC996400A668EA /* GameSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0118A1D2ABC996400A668EA /* GameSettings.swift */; };
+		D0118A212ABCAE9600A668EA /* UserDefaults+Extension .swift in Sources */ = {isa = PBXBuildFile; fileRef = D0118A202ABCAE9600A668EA /* UserDefaults+Extension .swift */; };
 		D03963E02AA7C2A500391792 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03963DF2AA7C2A500391792 /* AppDelegate.swift */; };
 		D03963E22AA7C2A500391792 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03963E12AA7C2A500391792 /* SceneDelegate.swift */; };
-		D03963E42AA7C2A500391792 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03963E32AA7C2A500391792 /* ViewController.swift */; };
-		D03963E72AA7C2A500391792 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D03963E52AA7C2A500391792 /* Main.storyboard */; };
+		D03963E42AA7C2A500391792 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03963E32AA7C2A500391792 /* GameViewController.swift */; };
 		D03963E92AA7C2A600391792 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D03963E82AA7C2A600391792 /* Assets.xcassets */; };
 		D03963EC2AA7C2A600391792 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D03963EA2AA7C2A600391792 /* LaunchScreen.storyboard */; };
+		D09555D52AAE42CB003519FF /* GameOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09555D42AAE42CB003519FF /* GameOverViewController.swift */; };
+		D09555D72AAE472F003519FF /* GameMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09555D62AAE472F003519FF /* GameMenuViewController.swift */; };
+		D09555D92AAE47C0003519FF /* GameAchievementsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09555D82AAE47C0003519FF /* GameAchievementsViewController.swift */; };
+		D09555DB2AAE47E3003519FF /* GameSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09555DA2AAE47E3003519FF /* GameSettingsViewController.swift */; };
+		D09555DD2AAE49AE003519FF /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09555DC2AAE49AE003519FF /* CustomButton.swift */; };
+		D09555E02AAE65DE003519FF /* PlaneGame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D09555DE2AAE65DE003519FF /* PlaneGame.xcdatamodeld */; };
+		D09555E22AAE6661003519FF /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09555E12AAE6661003519FF /* CoreDataStack.swift */; };
+		D09555E52AAE6BF7003519FF /* AchievementsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09555E42AAE6BF7003519FF /* AchievementsTableViewCell.swift */; };
+		D0A933272ACEAA7200813A01 /* CornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A933262ACEAA7200813A01 /* CornerRadius.swift */; };
+		D0A933292ACEAB0C00813A01 /* FontSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A933282ACEAB0C00813A01 /* FontSize.swift */; };
+		D0A9332B2ACEAFB600813A01 /* Sizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A9332A2ACEAFB600813A01 /* Sizes.swift */; };
+		D0A9332D2ACEB6BB00813A01 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A9332C2ACEB6BA00813A01 /* CustomTextField.swift */; };
+		D0A9332F2ACEB80A00813A01 /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A9332E2ACEB80A00813A01 /* CustomLabel.swift */; };
+		D0A933312ACEBDC200813A01 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A933302ACEBDC200813A01 /* CustomImageView.swift */; };
+		D0A933332ACECDDD00813A01 /* CustomStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A933322ACECDDD00813A01 /* CustomStackView.swift */; };
+		D0F262742ABD8C3A001A0501 /* Offsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F262732ABD8C3A001A0501 /* Offsets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D0118A132ABC48AA00A668EA /* ChangePlaneCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePlaneCollectionViewCell.swift; sourceTree = "<group>"; };
+		D0118A162ABC81DF00A668EA /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		D0118A182ABC833300A668EA /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
+		D0118A1D2ABC996400A668EA /* GameSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSettings.swift; sourceTree = "<group>"; };
+		D0118A202ABCAE9600A668EA /* UserDefaults+Extension .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extension .swift"; sourceTree = "<group>"; };
 		D03963DC2AA7C2A500391792 /* Plane Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Plane Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D03963DF2AA7C2A500391792 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D03963E12AA7C2A500391792 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D03963E32AA7C2A500391792 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D03963E62AA7C2A500391792 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D03963E32AA7C2A500391792 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		D03963E82AA7C2A600391792 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D03963EB2AA7C2A600391792 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D03963ED2AA7C2A600391792 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D09555D42AAE42CB003519FF /* GameOverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverViewController.swift; sourceTree = "<group>"; };
+		D09555D62AAE472F003519FF /* GameMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameMenuViewController.swift; sourceTree = "<group>"; };
+		D09555D82AAE47C0003519FF /* GameAchievementsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameAchievementsViewController.swift; sourceTree = "<group>"; };
+		D09555DA2AAE47E3003519FF /* GameSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSettingsViewController.swift; sourceTree = "<group>"; };
+		D09555DC2AAE49AE003519FF /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		D09555DF2AAE65DE003519FF /* Score.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Score.xcdatamodel; sourceTree = "<group>"; };
+		D09555E12AAE6661003519FF /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		D09555E42AAE6BF7003519FF /* AchievementsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsTableViewCell.swift; sourceTree = "<group>"; };
+		D0A933262ACEAA7200813A01 /* CornerRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRadius.swift; sourceTree = "<group>"; };
+		D0A933282ACEAB0C00813A01 /* FontSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontSize.swift; sourceTree = "<group>"; };
+		D0A9332A2ACEAFB600813A01 /* Sizes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sizes.swift; sourceTree = "<group>"; };
+		D0A9332C2ACEB6BA00813A01 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		D0A9332E2ACEB80A00813A01 /* CustomLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
+		D0A933302ACEBDC200813A01 /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		D0A933322ACECDDD00813A01 /* CustomStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStackView.swift; sourceTree = "<group>"; };
+		D0F262732ABD8C3A001A0501 /* Offsets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offsets.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +77,78 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D0118A152ABC81D000A668EA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D0118A162ABC81DF00A668EA /* UIView+Extension.swift */,
+				D0118A182ABC833300A668EA /* UITextField+Extension.swift */,
+				D0118A202ABCAE9600A668EA /* UserDefaults+Extension .swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D0118A1F2ABC99A700A668EA /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				D09555DE2AAE65DE003519FF /* PlaneGame.xcdatamodeld */,
+			);
+			path = "Core Data";
+			sourceTree = "<group>";
+		};
+		D01A027F2ACF128500817F08 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D09555E42AAE6BF7003519FF /* AchievementsTableViewCell.swift */,
+				D0118A132ABC48AA00A668EA /* ChangePlaneCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		D01E76DE2AABB1ED0095AD14 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D0118A1D2ABC996400A668EA /* GameSettings.swift */,
+				D0118A1F2ABC99A700A668EA /* Core Data */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D01E76DF2AABB1F80095AD14 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D09555D62AAE472F003519FF /* GameMenuViewController.swift */,
+				D03963E32AA7C2A500391792 /* GameViewController.swift */,
+				D09555D82AAE47C0003519FF /* GameAchievementsViewController.swift */,
+				D09555DA2AAE47E3003519FF /* GameSettingsViewController.swift */,
+				D09555D42AAE42CB003519FF /* GameOverViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D01E76E02AABB2010095AD14 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D01A027F2ACF128500817F08 /* Cells */,
+				D09555DC2AAE49AE003519FF /* CustomButton.swift */,
+				D0A9332C2ACEB6BA00813A01 /* CustomTextField.swift */,
+				D0A9332E2ACEB80A00813A01 /* CustomLabel.swift */,
+				D0A933302ACEBDC200813A01 /* CustomImageView.swift */,
+				D0A933322ACECDDD00813A01 /* CustomStackView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D01E76E12AABB21E0095AD14 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				D03963E82AA7C2A600391792 /* Assets.xcassets */,
+				D03963E12AA7C2A500391792 /* SceneDelegate.swift */,
+				D03963DF2AA7C2A500391792 /* AppDelegate.swift */,
+				D03963EA2AA7C2A600391792 /* LaunchScreen.storyboard */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
 		D03963D32AA7C2A500391792 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +168,35 @@
 		D03963DE2AA7C2A500391792 /* Plane Game */ = {
 			isa = PBXGroup;
 			children = (
-				D03963DF2AA7C2A500391792 /* AppDelegate.swift */,
-				D03963E12AA7C2A500391792 /* SceneDelegate.swift */,
-				D03963E32AA7C2A500391792 /* ViewController.swift */,
-				D03963E52AA7C2A500391792 /* Main.storyboard */,
-				D03963E82AA7C2A600391792 /* Assets.xcassets */,
-				D03963EA2AA7C2A600391792 /* LaunchScreen.storyboard */,
+				D0F262722ABD8C24001A0501 /* Constants */,
+				D0118A152ABC81D000A668EA /* Extensions */,
+				D09555E32AAE66A7003519FF /* Services */,
+				D01E76DE2AABB1ED0095AD14 /* Model */,
+				D01E76E02AABB2010095AD14 /* Views */,
+				D01E76DF2AABB1F80095AD14 /* Controllers */,
+				D01E76E12AABB21E0095AD14 /* SupportingFiles */,
 				D03963ED2AA7C2A600391792 /* Info.plist */,
 			);
 			path = "Plane Game";
+			sourceTree = "<group>";
+		};
+		D09555E32AAE66A7003519FF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D09555E12AAE6661003519FF /* CoreDataStack.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D0F262722ABD8C24001A0501 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				D0F262732ABD8C3A001A0501 /* Offsets.swift */,
+				D0A933262ACEAA7200813A01 /* CornerRadius.swift */,
+				D0A933282ACEAB0C00813A01 /* FontSize.swift */,
+				D0A9332A2ACEAFB600813A01 /* Sizes.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,7 +227,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					D03963DB2AA7C2A500391792 = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -127,7 +259,6 @@
 			files = (
 				D03963EC2AA7C2A600391792 /* LaunchScreen.storyboard in Resources */,
 				D03963E92AA7C2A600391792 /* Assets.xcassets in Resources */,
-				D03963E72AA7C2A500391792 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +269,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D03963E42AA7C2A500391792 /* ViewController.swift in Sources */,
+				D0F262742ABD8C3A001A0501 /* Offsets.swift in Sources */,
+				D09555E52AAE6BF7003519FF /* AchievementsTableViewCell.swift in Sources */,
+				D0A933312ACEBDC200813A01 /* CustomImageView.swift in Sources */,
+				D0A933292ACEAB0C00813A01 /* FontSize.swift in Sources */,
+				D0118A172ABC81DF00A668EA /* UIView+Extension.swift in Sources */,
+				D09555D72AAE472F003519FF /* GameMenuViewController.swift in Sources */,
+				D09555E02AAE65DE003519FF /* PlaneGame.xcdatamodeld in Sources */,
+				D09555D52AAE42CB003519FF /* GameOverViewController.swift in Sources */,
+				D03963E42AA7C2A500391792 /* GameViewController.swift in Sources */,
 				D03963E02AA7C2A500391792 /* AppDelegate.swift in Sources */,
+				D0A933272ACEAA7200813A01 /* CornerRadius.swift in Sources */,
+				D0118A212ABCAE9600A668EA /* UserDefaults+Extension .swift in Sources */,
+				D0A933332ACECDDD00813A01 /* CustomStackView.swift in Sources */,
+				D09555E22AAE6661003519FF /* CoreDataStack.swift in Sources */,
+				D0118A1E2ABC996400A668EA /* GameSettings.swift in Sources */,
+				D0A9332F2ACEB80A00813A01 /* CustomLabel.swift in Sources */,
+				D0118A142ABC48AA00A668EA /* ChangePlaneCollectionViewCell.swift in Sources */,
+				D0A9332D2ACEB6BB00813A01 /* CustomTextField.swift in Sources */,
+				D0118A192ABC833300A668EA /* UITextField+Extension.swift in Sources */,
+				D09555DD2AAE49AE003519FF /* CustomButton.swift in Sources */,
+				D0A9332B2ACEAFB600813A01 /* Sizes.swift in Sources */,
+				D09555DB2AAE47E3003519FF /* GameSettingsViewController.swift in Sources */,
+				D09555D92AAE47C0003519FF /* GameAchievementsViewController.swift in Sources */,
 				D03963E22AA7C2A500391792 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +299,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D03963E52AA7C2A500391792 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D03963E62AA7C2A500391792 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D03963EA2AA7C2A600391792 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -202,6 +346,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -216,7 +361,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -262,6 +407,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -270,7 +416,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -292,9 +438,9 @@
 				INFOPLIST_FILE = "Plane Game/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,9 +448,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "DmitryGorbunow.Plane-Game";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -320,9 +469,9 @@
 				INFOPLIST_FILE = "Plane Game/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +479,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "DmitryGorbunow.Plane-Game";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -358,6 +510,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D09555DE2AAE65DE003519FF /* PlaneGame.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D09555DF2AAE65DE003519FF /* Score.xcdatamodel */,
+			);
+			currentVersion = D09555DF2AAE65DE003519FF /* Score.xcdatamodel */;
+			path = PlaneGame.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = D03963D42AA7C2A500391792 /* Project object */;
 }
